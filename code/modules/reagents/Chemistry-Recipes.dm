@@ -1465,7 +1465,7 @@ datum
 			name = "Wine"
 			id = "wine"
 			result = "wine"
-			required_reagents = list("berryjuice" = 10)
+			required_reagents = list("grapejuice" = 10) //Wine is now made with Grape Juice
 			required_catalysts = list("enzyme" = 5)
 			result_amount = 10
 
@@ -1750,6 +1750,13 @@ datum
 			id = "barefoot"
 			result = "barefoot"
 			required_reagents = list("berryjuice" = 1, "cream" = 1, "vermouth" = 1)
+			result_amount = 3
+			
+		grapesoda //Allows Grape Soda to be made
+			name = "Grape Soda"
+			id = "grapesoda"
+			result = "grapesoda"
+			required_reagents = list("grapejuice" = 2, "cola" = 1)
 			result_amount = 3
 
 
